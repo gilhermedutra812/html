@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>lista em HTML</title>
+
+    <style>
+        /* pseudo classe que formata a seleção de texto*/
+        ::selection{background-color: yellow; color:black;}
+        body{background-color: #80cbc4; font-family: arial;}
+        h1{text-align: center; color: #004d40;}
+
+        .ingredientes, .preparo{background-color: #00796b; color: #fff;
+        height:400px;}
+        h2{text-align: center; padding:10px; background-color: #b2dfdb; color: #004d40;}
+
+        ul li, ol li{font-size:18px; line-height: 0.8cm;}
+    </style>
+    
+</head>
+<body>
+    <h1>Receita de bolo simples</h1>
+    <section class="ingredientes">
+        <h2>ingredientes para o bolo</h2>
+        <ul>
+            <li>2 xícaras de açúcar</li>
+            <li>3 xícaras de farinha de trigo</li>
+            <li>4 colheres de margarina/manteiga</li>
+            <li>1 e 1/2 xícara de leite</li>
+            <li>3 ovos
+                <ul>
+                    <li>brancos</li>
+                    <li>vermelhos</li>
+                </ul>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="preparo">
+        <h2>Modo de preparo</h2>
+        <ol>
+            <li>bata as claras em neve</li>
+            <li>misturar as gemas, a margarina/manteiga e o açúcar
+                até  obter uma massa homogenea</li>
+            <li>Acrescente o leite o a farinha de trigo aos poucos, sem parar de bater</li>
+            <li>por ultimo, adicione as claras em neve e o fermento</li>
+            <li>despeje a massa em uma forma grande de furo central untada e enfarinhada</li>
+            <li>asse em forno médio 180 graus, preaquecido, por aproximadamente 40 minutos
+                ou ao furar o bolo com uma faca, esta sai limpa
+            </li>
+        </ol>
+    </section>
+    
+</body>
+</html>
