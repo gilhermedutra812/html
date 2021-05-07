@@ -1,0 +1,21 @@
+body{background-color:white;font-family: arial;}
+h1{color:white; text-align: center;}
+
+table{border-collapse: collapse; width:50%; margin:10px auto;} 
+/* 1º estilo de tabela */
+/*table, tr, th, td{border:1px solid black;}
+th, td{padding:10px;}/*
+
+/* 1º estilo de tabela */
+th, td{padding:10px; text-align: center; border-bottom: 1px solid gray}
+
+/* 3º estilo de tabela */
+th, td{padding: 10px; text-align: center;}
+th{background-color: dodgerblue; color:white}
+tbody > tr:nth-child(even){background-color: cyan;}
+/*
+:nth-child(odd)--> tudo que for impar
+:nth-child(even)--> tudo que for par
+*/
+tbody > tr:hover{text-decoration: underline double; cursor: pointer;}
+
